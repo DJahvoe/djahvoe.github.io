@@ -1,0 +1,21 @@
+{
+	"name": "responsiveportofoliofix",
+	"version": "1.0.0",
+	"description": "Responsive portfolio website",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run development",
+		"sass": "sass scss/main/main.scss dist/css/main/main.css",
+		"watch": "sass --watch scss/main/main.scss dist/css/main/main.css"
+	},
+	"author": "Sav",
+	"license": "MIT",
+	"dependencies": {
+		"gulp": "^4.0.2",
+		"node-sass": "^4.13.0",
+		"sweetalert2": "^9.5.3"
+	},
+	"devDependencies": {
+		"@fortawesome/fontawesome-free": "^5.12.0"
+	}
+}
