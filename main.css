@@ -38,6 +38,27 @@ body {
 	transition: transform 1.5s ease-in-out;
 }
 
+/* Sound */
+#btn-sound {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background: transparent;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	z-index: 200;
+	border: 2px solid var(--primary-color);
+	color: var(--primary-color);
+	transition: all 0.25s ease-in-out;
+}
+
+#btn-sound:hover {
+	background: var(--primary-color);
+	color: black;
+	cursor: pointer;
+}
+
 /* Root */
 #root {
 	display: flex;
